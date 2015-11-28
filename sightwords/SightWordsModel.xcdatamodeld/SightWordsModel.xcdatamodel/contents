@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0"
+       lastSavedToolsVersion="8195" systemVersion="15B38b" minimumToolsVersion="Xcode 7.0">
+    <entity name="Attempt" syncable="YES">
+        <attribute name="successful" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Word"
+                      inverseName="relationship" inverseEntity="Word" syncable="YES"/>
+    </entity>
+    <entity name="Word" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Attempt"
+                      inverseName="relationship" inverseEntity="Attempt" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Word" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Attempt" positionX="-54" positionY="9" width="128" height="75"/>
+    </elements>
+</model>

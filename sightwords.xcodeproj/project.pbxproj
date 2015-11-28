@@ -14,6 +14,14 @@
 		361CBB4E1BE2ECFB008B6092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361CBB4C1BE2ECFB008B6092 /* LaunchScreen.storyboard */; };
 		361CBB591BE2ECFB008B6092 /* sightwordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CBB581BE2ECFB008B6092 /* sightwordsTests.swift */; };
 		361CBB641BE2ECFB008B6092 /* sightwordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CBB631BE2ECFB008B6092 /* sightwordsUITests.swift */; };
+		361CBB741BE2EDED008B6092 /* WordViewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CBB731BE2EDED008B6092 /* WordViewClass.swift */; settings = {ASSET_TAGS = (); }; };
+		361CBB761BE2EF42008B6092 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CBB751BE2EF42008B6092 /* Word.swift */; settings = {ASSET_TAGS = (); }; };
+		361CBB781BE2F024008B6092 /* Attempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CBB771BE2F024008B6092 /* Attempt.swift */; settings = {ASSET_TAGS = (); }; };
+		361CBB7A1BE3A20B008B6092 /* WordRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CBB791BE3A20B008B6092 /* WordRepositoryProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		361CBB7C1BE4370E008B6092 /* InMemoryWordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361CBB7B1BE4370E008B6092 /* InMemoryWordRepository.swift */; settings = {ASSET_TAGS = (); }; };
+		3624448D1BE6B5A600BB88FE /* WordViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3624448C1BE6B5A600BB88FE /* WordViewDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		362444901BE6EA2700BB88FE /* SightWordsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3624448E1BE6EA2700BB88FE /* SightWordsModel.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		362444921BE6EE6600BB88FE /* CoreDataWordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362444911BE6EE6600BB88FE /* CoreDataWordRepository.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		361CBB5F1BE2ECFB008B6092 /* sightwordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sightwordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		361CBB631BE2ECFB008B6092 /* sightwordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sightwordsUITests.swift; sourceTree = "<group>"; };
 		361CBB651BE2ECFB008B6092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361CBB731BE2EDED008B6092 /* WordViewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewClass.swift; sourceTree = "<group>"; };
+		361CBB751BE2EF42008B6092 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		361CBB771BE2F024008B6092 /* Attempt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attempt.swift; sourceTree = "<group>"; };
+		361CBB791BE3A20B008B6092 /* WordRepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordRepositoryProtocol.swift; sourceTree = "<group>"; };
+		361CBB7B1BE4370E008B6092 /* InMemoryWordRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryWordRepository.swift; sourceTree = "<group>"; };
+		3624448C1BE6B5A600BB88FE /* WordViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordViewDelegate.swift; sourceTree = "<group>"; };
+		3624448F1BE6EA2700BB88FE /* SightWordsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SightWordsModel.xcdatamodel; sourceTree = "<group>"; };
+		362444911BE6EE6600BB88FE /* CoreDataWordRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataWordRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				361CBB4A1BE2ECFB008B6092 /* Assets.xcassets */,
 				361CBB4C1BE2ECFB008B6092 /* LaunchScreen.storyboard */,
 				361CBB4F1BE2ECFB008B6092 /* Info.plist */,
+				361CBB731BE2EDED008B6092 /* WordViewClass.swift */,
+				361CBB751BE2EF42008B6092 /* Word.swift */,
+				361CBB771BE2F024008B6092 /* Attempt.swift */,
+				361CBB791BE3A20B008B6092 /* WordRepositoryProtocol.swift */,
+				361CBB7B1BE4370E008B6092 /* InMemoryWordRepository.swift */,
+				3624448C1BE6B5A600BB88FE /* WordViewDelegate.swift */,
+				3624448E1BE6EA2700BB88FE /* SightWordsModel.xcdatamodeld */,
+				362444911BE6EE6600BB88FE /* CoreDataWordRepository.swift */,
 			);
 			path = sightwords;
 			sourceTree = "<group>";
@@ -255,8 +279,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362444921BE6EE6600BB88FE /* CoreDataWordRepository.swift in Sources */,
+				361CBB781BE2F024008B6092 /* Attempt.swift in Sources */,
+				361CBB741BE2EDED008B6092 /* WordViewClass.swift in Sources */,
+				361CBB761BE2EF42008B6092 /* Word.swift in Sources */,
+				362444901BE6EA2700BB88FE /* SightWordsModel.xcdatamodeld in Sources */,
+				3624448D1BE6B5A600BB88FE /* WordViewDelegate.swift in Sources */,
+				361CBB7C1BE4370E008B6092 /* InMemoryWordRepository.swift in Sources */,
 				361CBB461BE2ECFB008B6092 /* ViewController.swift in Sources */,
 				361CBB441BE2ECFB008B6092 /* AppDelegate.swift in Sources */,
+				361CBB7A1BE3A20B008B6092 /* WordRepositoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +515,7 @@
 				361CBB6A1BE2ECFB008B6092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		361CBB6B1BE2ECFB008B6092 /* Build configuration list for PBXNativeTarget "sightwordsTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +524,7 @@
 				361CBB6D1BE2ECFB008B6092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		361CBB6E1BE2ECFB008B6092 /* Build configuration list for PBXNativeTarget "sightwordsUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,8 +533,22 @@
 				361CBB701BE2ECFB008B6092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3624448E1BE6EA2700BB88FE /* SightWordsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3624448F1BE6EA2700BB88FE /* SightWordsModel.xcdatamodel */,
+			);
+			currentVersion = 3624448F1BE6EA2700BB88FE /* SightWordsModel.xcdatamodel */;
+			path = SightWordsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 361CBB381BE2ECFB008B6092 /* Project object */;
 }

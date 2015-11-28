@@ -8,11 +8,34 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, WordViewDelegate {
 
+    var repository: WordRepository?
+    var word: Word?
+    var wordView: WordViewClass?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        repository = CoreDataWordRepository()
+        word = repository!.GetWord()
+        wordView = WordViewClass(frame: self.view.frame, word: self.word!, delegate: self)
+        addWordView()
+    }
+
+    func reportAttempt(attempt: Attempt) {
+        self.word!.attempts.append(attempt)
+        if (attempt.successful) {
+
+        }
+        updateWordView()
+    }
+
+    func addWordView() {
+        view.addSubview(wordView!)
+    }
+
+    func updateWordView() {
+        wordView?.word = repository!.GetWord()
     }
 
     override func didReceiveMemoryWarning() {
