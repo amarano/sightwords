@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let repository = CoreDataWordRepository()
+
+        repository.AddWord(Word(id: "a", word: "Cat", attempts: []))
+        repository.AddWord(Word(id : "b", word: "Dog", attempts :[]))
+        repository.AddWord(Word(id : "c", word :"Brown", attempts: []))
         return true
     }
 

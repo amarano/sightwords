@@ -19,4 +19,6 @@ protocol WordRepository {
 
     func UpdateWord(word: Word) -> Bool
 
+    func AddWord(word: Word) -> Bool
+
 }

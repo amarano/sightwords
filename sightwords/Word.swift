@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import CoreData
 
-class Word: NSObject {
+class Word: CoreData.NSManagedObject {
 
-    var id: String
-    var text: String
-    var attempts: [Attempt]
+    @NSManaged var id: String
+    @NSManaged var text: String
+    @NSManaged var attempts: [Attempt]
 
-    init(id: String, word: String, attempts: [Attempt]) {
+    convenience init(id: String, word: String, attempts: [Attempt]) {
+
+        self.init()
+
         self.id = id
         self.text = word
         self.attempts = attempts

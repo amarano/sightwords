@@ -52,6 +52,13 @@ class CoreDataWordRepository: NSObject, WordRepository {
         return true
     }
 
+    func AddWord(word: Word) -> Bool {
+        let attachedWord = NSEntityDescription.insertNewObjectForEntityForName("Word", inManagedObjectContext: managedObjectContext!) as! Word
+        attachedWord.text = word.text
+        attachedWord.id = word.id
+        attachedWord.attempts = word.attempts
+    }
+
     private func setUpCoreData() {
         guard let modelURL = NSBundle.mainBundle().URLForResource("SightWordsModel", withExtension: "momd") else {
             fatalError("Error loading model from bundle")

@@ -33,4 +33,8 @@ class InMemoryWordRepository: WordRepository {
         let word = words[Int(randomIndex)]
         return word
     }
+
+    func AddWord(word : Word) -> Bool {
+        return true
+    }
 }
